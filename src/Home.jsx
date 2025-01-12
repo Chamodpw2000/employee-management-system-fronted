@@ -25,7 +25,7 @@ const Home = () => {
 
             handleClear();
 
-            
+
             const response = await axios.get(`http://localhost:8081/api/employees/${id}`);
             setEmployee(response.data);
         } catch (e) {
@@ -95,9 +95,11 @@ const Home = () => {
                             variant="contained"
                             startIcon={<SearchIcon />}
                             onClick={handleSearch}
+                            disabled={!id}
                         >
                             Search
                         </Button>
+
                     </Box>
                 </Paper>
 
