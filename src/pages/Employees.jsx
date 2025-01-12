@@ -54,7 +54,7 @@ const Employees = () => {
 
     return (
         <Container maxWidth="lg" sx={{ py: 4 }}>
-            <Typography
+               <Typography
                 variant="h4"
                 component="h1"
                 gutterBottom
@@ -64,8 +64,10 @@ const Employees = () => {
                     fontWeight: 'bold',
                     mb: 4
                 }}
+
             >
-                Registered Employees
+                <BusinessIcon sx={{ mr: 2, verticalAlign: 'middle' }} />
+                Employee Directory
             </Typography>
 
             <Grid container spacing={3}>
