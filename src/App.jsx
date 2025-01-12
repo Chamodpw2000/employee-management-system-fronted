@@ -1,6 +1,6 @@
 import { Box } from "@mui/material";
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import React from 'react';
+import React, { useEffect } from 'react';
 import Home from "./Home";
 import AddEmployee from "./pages/AddEmployee";
 import AddDepartment from "./pages/AddDepartment";
@@ -15,6 +15,11 @@ import EditOrganization from "./pages/EditOrganization";
 import EditDepartment from "./pages/EditDepartment";
 
 function App() {
+
+  
+  useEffect(() => {
+    document.title = "EMS";
+  }, []);
   return (
     <BrowserRouter>
       <Box sx={{ 

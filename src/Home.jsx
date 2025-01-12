@@ -161,10 +161,15 @@ const Home = () => {
 
                 <Typography
                     color="error"
-                    sx={{ flexGrow: 1, alignSelf: 'center' }}
+                    sx={{
+                        flexGrow: 1,
+                        alignSelf: 'center',
+                        textAlign: 'center'
+                    }}
                 >
                     {err}
                 </Typography>
+
             </Box>
         </Container>
     );
