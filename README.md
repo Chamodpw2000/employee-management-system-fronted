@@ -12,4 +12,4 @@ Here are the features and technologies I used. 🚀
 
 💥Using Resilience4J as a circuit breaker to prevent cascading failures by managing requests to failing services and temporarily blocking calls to them until they recover, ensuring system stability and resilience.
 
-Demostration - https://www.youtube.com/watch?v=hs8EqQweL_I&t=3s
+Demonstration - https://www.youtube.com/watch?v=hs8EqQweL_I&t=3s
