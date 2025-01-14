@@ -1,15 +1,59 @@
-I completed a project on an Employee Management System to familiarize myself with Springboot Microservices architecture and CRUD Operations by integrating Springboot with MySQL. I developed a full-stack application by using Springboot as the backend framework, MySQL as the Database and React along with MUI for the frontend. 
+# 🏢 Employee Management System
+> Enterprise-grade microservices architecture showcasing modern development practices
 
-Here are the features and technologies I used. 🚀
+[![Spring Boot](https://img.shields.io/badge/Spring_Boot-2.7-green.svg)](https://spring.io/projects/spring-boot)
+[![React](https://img.shields.io/badge/React-18.0-blue.svg)](https://reactjs.org/)
+[![MySQL](https://img.shields.io/badge/MySQL-8.0-orange.svg)](https://www.mysql.com/)
 
-💥Three microservices as Employee, Department and Organization with WebClient for seamless cross-microservice communication.
+<p align="center">
+  <img src="architecture-diagram.png" alt="Architecture Diagram" width="600"/>
+</p>
 
-💥An API Gateway handles routing by directing incoming requests to the appropriate microservices or backend services, ensuring efficient and centralized management of API traffic.
+## ✨ Features
 
-💥Config Server to externalize configurations in a GitHub repository and ensure consistent and dynamic updates without needing to redeploy the services.
+<details>
+<summary>🔄 Microservices Architecture</summary>
 
-💥Distributed Tracing with Zipkin and Sleuth helps track requests as they flow through various microservices, providing insights into performance bottlenecks and service interactions
+- Employee Service
+- Department Service  
+- Organization Service
+- WebClient Integration
+- API Gateway
+- Config Server
+</details>
 
-💥Using Resilience4J as a circuit breaker to prevent cascading failures by managing requests to failing services and temporarily blocking calls to them until they recover, ensuring system stability and resilience.
+<details>
+<summary>🛡️ System Resilience</summary>
 
-Demonstration - https://www.youtube.com/watch?v=hs8EqQweL_I&t=3s
+- Circuit Breaker (Resilience4J)
+- Distributed Tracing
+- Fault Tolerance
+</details>
+
+## 🚀 Tech Stack
+
+| Component    | Technology                |
+|-------------|---------------------------|
+| Backend     | Spring Boot              |
+| Frontend    | React + Material UI      |
+| Database    | MySQL                    |
+| Gateway     | Spring Cloud Gateway     |
+| Config      | Spring Cloud Config      |
+| Monitoring  | Zipkin, Sleuth          |
+
+## 🎯 Key Implementation Highlights
+
+- ⚡ Microservices Communication
+- 📊 Centralized Configuration 
+- 🔍 Request Tracing
+- 🛠️ Circuit Breaking
+- 🔄 CRUD Operations
+
+## 🎥 Demo
+[![Demo Video](https://img.youtube.com/vi/hs8EqQweL_I/0.jpg)](https://www.youtube.com/watch?v=hs8EqQweL_I)
+
+## 🛠️ Installation
+
+```bash
+git clone https://github.com/yourusername/employee-management
+cd employee-management
