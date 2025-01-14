@@ -1,13 +1,11 @@
 # 🏢 Employee Management System
-> Enterprise-grade microservices architecture showcasing modern development practices
+
 
 [![Spring Boot](https://img.shields.io/badge/Spring_Boot-2.7-green.svg)](https://spring.io/projects/spring-boot)
 [![React](https://img.shields.io/badge/React-18.0-blue.svg)](https://reactjs.org/)
 [![MySQL](https://img.shields.io/badge/MySQL-8.0-orange.svg)](https://www.mysql.com/)
 
-<p align="center">
-  <img src="architecture-diagram.png" alt="Architecture Diagram" width="600"/>
-</p>
+
 
 ## ✨ Features
 
@@ -52,8 +50,4 @@
 ## 🎥 Demo
 [![Demo Video](https://img.youtube.com/vi/hs8EqQweL_I/0.jpg)](https://www.youtube.com/watch?v=hs8EqQweL_I)
 
-## 🛠️ Installation
 
-```bash
-git clone https://github.com/yourusername/employee-management
-cd employee-management
